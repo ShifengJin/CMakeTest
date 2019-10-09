@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "TestAdd.h"
+#include <TestAdd_lib/TestAdd.h>
+
 int main(int argc, char** argv){
     int c = TestAdd::add(100, 1);
     printf("test add result : %d\n", c);
